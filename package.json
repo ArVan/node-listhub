@@ -1,0 +1,34 @@
+{
+  "name": "ListHub",
+  "version": "0.0.1",
+  "description": "ListHub integration lib",
+  "keywords": [
+    "ListHub"
+  ],
+  "homepage": "https://github.com/ArVan/node-listhub",
+  "bugs": {
+    "email": "av@socialobjects.am"
+  },
+  "author": {
+    "name": "Arpy Vanyan",
+    "email": "av@socialobjects.am"
+  },
+  "dependencies": {
+    "debug": "1.0.*",
+    "cron": "~1.0.4",
+    "mkpath": "~0.1.0",
+    "xml2js": "~0.4.4",
+    "request": "~2.42.0",
+    "lodash": "~2.4.1"
+  },
+  "main": "lib/ListHub.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ArVan/node-listhub.git"
+  },
+  "readmeFilename": "README.md",
+  "_id": "listhub@0.0.1"
+}
