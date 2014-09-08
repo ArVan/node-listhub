@@ -1,5 +1,5 @@
 {
-  "name": "ListHub",
+  "name": "listhub",
   "version": "0.0.1",
   "description": "ListHub integration lib",
   "keywords": [
@@ -9,10 +9,7 @@
   "bugs": {
     "email": "dev@socialobjects.am"
   },
-  "author": {
-    "name": "SocialObjects Software",
-    "email": "dev@socialobjects.am"
-  },
+  "author": "SocialObjects Software <dev@socialobjects.am>",
   "dependencies": {
     "debug": "1.0.*",
     "cron": "~1.0.4",
@@ -29,6 +26,10 @@
     "type": "git",
     "url": "git://github.com/SocialObjects-Software/node-listhub.git"
   },
-  "readmeFilename": "README.md",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
   "_id": "listhub@0.0.1"
 }
