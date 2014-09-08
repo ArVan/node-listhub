@@ -1,7 +1,5 @@
 # node-listhub
 
-[![Build Status](https://travis-ci.org/ArVan/node-listhub.png?branch=master)](https://travis-ci.org/ArVan/node-listhub)
-
 A Nodej.s module to handle ListHub feed downloads
 
 # Installation
@@ -59,7 +57,7 @@ Below you can find more detailed usage tips and examples.
  The constructor takes 1 argument (options). It is an object with some configuration parameters. 
  The possible contents of the object are:
 
- ```JavaScript
+ ```
   channelId <string> Your ListHub channel
   username <string> The username for your ListHub account
   password <string> The password for your ListHub account
