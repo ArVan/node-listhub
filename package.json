@@ -5,13 +5,13 @@
   "keywords": [
     "ListHub"
   ],
-  "homepage": "https://github.com/ArVan/node-listhub",
+  "homepage": "https://github.com/SocialObjects-Software/node-listhub",
   "bugs": {
-    "email": "av@socialobjects.am"
+    "email": "dev@socialobjects.am"
   },
   "author": {
-    "name": "Arpy Vanyan",
-    "email": "av@socialobjects.am"
+    "name": "SocialObjects Software",
+    "email": "dev@socialobjects.am"
   },
   "dependencies": {
     "debug": "1.0.*",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ArVan/node-listhub.git"
+    "url": "git://github.com/SocialObjects-Software/node-listhub.git"
   },
   "readmeFilename": "README.md",
   "_id": "listhub@0.0.1"
