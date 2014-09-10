@@ -43,6 +43,7 @@ Below you can find more detailed usage tips and examples.
 
 	- constructor(options)
 	- checkAndGetNewFile()   You can manually run the feed update script with this function
+	- getXml()               Returns the parsed xml as libxml Document object
 	- getXmlString()         Returns the string of parsed xml
 	- clearFeedFiles()       Remove all files related to the channel (gzip, xml)
 
