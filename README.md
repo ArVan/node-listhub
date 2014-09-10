@@ -10,6 +10,10 @@ Via [npm][]:
 
 # Changelog
 
+## v0.0.2
+
+- Added `getXml()` method, which returns [libxmljs][] Document object to easily perform queries. 
+
 ## v0.0.1
 
 - Setup ListHub to download and store your feed file
@@ -83,3 +87,4 @@ Below you can find more detailed usage tips and examples.
   
   
 [npm]: https://npmjs.org
+[libxmljs]: https://github.com/polotek/libxmljs
