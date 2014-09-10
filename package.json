@@ -1,6 +1,6 @@
 {
   "name": "listhub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ListHub integration lib",
   "keywords": [
     "ListHub"
@@ -11,12 +11,13 @@
   },
   "author": "SocialObjects Software <dev@socialobjects.am>",
   "dependencies": {
-    "debug": "1.0.*",
+    "async": "^0.9.0",
     "cron": "~1.0.4",
+    "debug": "1.0.*",
+    "libxmljs": "^0.11.1",
+    "lodash": "~2.4.1",
     "mkpath": "~0.1.0",
-    "xml2js": "~0.4.4",
-    "request": "~2.42.0",
-    "lodash": "~2.4.1"
+    "request": "~2.42.0"
   },
   "main": "lib/ListHub.js",
   "directories": {
@@ -31,5 +32,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "_id": "listhub@0.0.1"
+  "_id": "listhub@0.0.2"
 }
