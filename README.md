@@ -1,6 +1,6 @@
 # node-listhub
 
-A Nodej.s module to handle ListHub feed downloads
+A Node.js module to handle ListHub feed downloads
 
 # Installation
 
