@@ -10,6 +10,10 @@ Via [npm][]:
 
 # Changelog
 
+## v0.0.5
+
+- Bugfixes
+
 ## v0.0.4
 
 - Added constructor option `runCronAtOnce` to start cronJob immediately
