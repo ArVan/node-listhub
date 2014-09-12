@@ -1,6 +1,6 @@
 {
   "name": "listhub",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ListHub integration lib",
   "keywords": [
     "ListHub"
@@ -33,5 +33,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "_id": "listhub@0.0.3"
+  "_id": "listhub@0.0.4"
 }
