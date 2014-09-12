@@ -10,6 +10,12 @@ Via [npm][]:
 
 # Changelog
 
+## v0.0.4
+
+- Added constructor option `runCronAtOnce` to start cronJob immediately
+- Added constructor option `onCronComplete` which is a callback function executed each time the job is complete
+
+
 ## v0.0.3
 
 - Added `getSingleListingJson()` method, which returns the `JSON` representations of a single Listing.
@@ -69,12 +75,14 @@ The constructor takes 1 argument (options). It is an object with some configurat
 The possible contents of the object are:
 
 ```
-channelId <string> Your ListHub channel
-username <string> The username for your ListHub account
-password <string> The password for your ListHub account
-filename <string> An optional filename to apply to saved files. If not provided, the channelId will be used
-runAt <string|array> An array containing cron-formatted strings to use for running cron jobs.
-setCron <boolean> A boolean indicating if the constructor should set up cron jobs to get ListHub files
+channelId <string>        Your ListHub channel
+username <string>         The username for your ListHub account
+password <string>         The password for your ListHub account
+filename <string>         An optional filename to apply to saved files. If not provided, the channelId will be used
+runAt <string|array>      An array containing cron-formatted strings to use for running cron jobs.
+setCron <boolean>         A boolean indicating if the constructor should set up cron jobs to get ListHub files
+runCronAtOnce <boolean>   Indicates if the feed should be downloaded also immediately after setup
+onCronComplete <function> Function to run at cron job completion
 ```
 
 If no `runAt` is provided, the module will download and store the feed file every day at `00:00:00`.
