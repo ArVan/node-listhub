@@ -1,6 +1,6 @@
 {
   "name": "listhub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ListHub integration lib",
   "keywords": [
     "ListHub"
@@ -17,7 +17,8 @@
     "libxmljs": "^0.11.1",
     "lodash": "~2.4.1",
     "mkpath": "~0.1.0",
-    "request": "~2.42.0"
+    "request": "~2.42.0",
+    "xml2js": "^0.4.4"
   },
   "main": "lib/ListHub.js",
   "directories": {
@@ -32,5 +33,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "_id": "listhub@0.0.2"
+  "_id": "listhub@0.0.3"
 }
