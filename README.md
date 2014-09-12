@@ -102,5 +102,5 @@ lh.getSingleListingJson(xmlDoc.child(1), function(err, json) {
 });
 ```
  
-[npm]: https://npmjs.org
+[npm]: https://www.npmjs.org/package/listhub
 [libxmljs]: https://github.com/polotek/libxmljs
