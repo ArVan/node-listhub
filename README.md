@@ -10,6 +10,10 @@ Via [npm][]:
 
 # Changelog
 
+## v0.0.6
+
+- Bugfixes
+
 ## v0.0.5
 
 - Bugfixes
