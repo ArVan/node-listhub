@@ -10,6 +10,11 @@ Via [npm][]:
 
 # Changelog
 
+## v0.0.7
+
+- Bugfixes
+- Memory management improvements
+
 ## v0.0.6
 
 - Bugfixes
