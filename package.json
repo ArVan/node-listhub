@@ -1,13 +1,14 @@
 {
   "name": "listhub",
-  "version": "0.0.7",
+  "version": "0.0.8-rc1",
   "description": "ListHub integration lib",
   "keywords": [
     "ListHub"
   ],
   "homepage": "https://github.com/SocialObjects-Software/node-listhub",
   "bugs": {
-    "email": "dev@socialobjects.am"
+    "email": "dev@socialobjects.am",
+    "url" : "https://github.com/SocialObjects-Software/node-listhub/issues"
   },
   "author": "SocialObjects Software <dev@socialobjects.am>",
   "dependencies": {
@@ -33,5 +34,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "_id": "listhub@0.0.7"
+  "_id": "listhub@0.0.8-rc1"
 }
