@@ -10,12 +10,12 @@ Via [npm][]:
 
 # Changelog
 
-## v0.0.8-rc1
+## v0.0.8-rc2
 
-- Bugfixes
-- Added option to specify tmp directory to feed files (`tmpDirectory`) 
+- Minor Bugfixes
+- Added process locking feature for the feed parsing feature not to start if it is already in process
 
-[older changes](./CHANGELOG.md)
+[older change log](./CHANGELOG.md)
 
 # Quick start
 

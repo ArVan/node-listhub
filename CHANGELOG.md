@@ -1,3 +1,14 @@
+
+## v0.0.8-rc2
+
+- Minor Bugfixes
+- Added process locking feature for the feed parsing feature not to start if it is already in process 
+
+## v0.0.8-rc1
+
+- Bugfixes
+- Added option to specify tmp directory to feed files (`tmpDirectory`) 
+
 ## v0.0.7
 
 - Bugfixes
