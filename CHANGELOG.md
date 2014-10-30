@@ -1,4 +1,9 @@
 
+## v0.0.8-rc3
+
+- Major bugfixes regardeen feed updates
+- Added ListHub error handler. Now an error file will be generated with returned error string.
+
 ## v0.0.8-rc2
 
 - Minor Bugfixes

@@ -10,10 +10,10 @@ Via [npm][]:
 
 # Changelog
 
-## v0.0.8-rc2
+## v0.0.8-rc3
 
-- Minor Bugfixes
-- Added process locking feature for the feed parsing feature not to start if it is already in process
+- Major bugfixes regardeen feed updates
+- Added ListHub error handler. Now an error file will be generated with returned error string.
 
 [older change log](./CHANGELOG.md)
 
