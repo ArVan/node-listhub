@@ -10,10 +10,9 @@ Via [npm][]:
 
 # Changelog
 
-## v0.0.8-rc3
+## v0.0.8
 
-- Major bugfixes regardeen feed updates
-- Added ListHub error handler. Now an error file will be generated with returned error string.
+- Major bugfixes
 
 [older change log](./CHANGELOG.md)
 

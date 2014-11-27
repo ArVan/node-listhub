@@ -1,3 +1,6 @@
+## v0.0.8
+
+- Major bugfixes
 
 ## v0.0.8-rc3
 
