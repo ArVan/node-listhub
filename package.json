@@ -1,6 +1,6 @@
 {
   "name": "listhub",
-  "version": "0.0.9",
+  "version": "0.0.8",
   "description": "ListHub feed download and managment lib",
   "keywords": [
     "ListHub"
