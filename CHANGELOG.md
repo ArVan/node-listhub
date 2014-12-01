@@ -1,3 +1,11 @@
+## v1.0.0
+
+- Added report creation support
+
+## v0.0.9
+
+- Added constructor option `reportFilePath` to save a report of fetched listings in specified location.
+
 ## v0.0.8
 
 - Major bugfixes

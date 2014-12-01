@@ -10,9 +10,9 @@ Via [npm][]:
 
 # Changelog
 
-## v0.0.8
+## v1.0.0
 
-- Major bugfixes
+- Added report creation support
 
 [older change log](./CHANGELOG.md)
 
@@ -39,11 +39,13 @@ Below you can find more detailed usage tips and examples.
 ### Methods
 
 	+ constructor(options)
-	+ checkAndGetNewFile(cb)                      You can manually run the feed update script with this function
-	+ getXml()                                    Returns the parsed xml as libxml Document object
-	+ getXmlString()                              Returns the string of parsed xml
-	+ getSingleListingJson(listingXmlElement, cb) Returns json object representing single Listing
-	+ clearFeedFiles(cb)                          Remove all files related to the channel (gzip, xml)
+	+ checkAndGetNewFile(cb)                                                     You can manually run the feed update script with this function
+	+ getXml()                                                                   Returns the parsed xml as libxml Document object
+	+ getXmlString()                                                             Returns the string of parsed xml
+	+ getSingleListingJson(listingXmlElement, cb)                                Returns json object representing single Listing
+	+ clearFeedFiles(cb)                                                         Remove all files related to the channel (gzip, xml)
+	+ addStatusReportForListing(listingKey, status, url, message, timestamp, cb) Add status report for a listing
+	+ generateReportFile(cb)                                                     Generate final report file for previously added statuses
 
 ## Creating class object
 
@@ -66,6 +68,7 @@ setCron <boolean>         A boolean indicating if the constructor should set up 
 runCronAtOnce <boolean>   Indicates if the feed should be downloaded also immediately after setup
 onCronComplete <function> Function to run at cron job completion
 tmpDirectory <string>     Path to temp directory where feed files will be kept
+reportFilePath <string>   Path to reports file to save for ListHub. If not specified will be equal to '{tmpDirectory}/{channelId}/report.xml'
 ```
 
 If no `runAt` is provided, the module will download and store the feed file every day at `00:00:00`.
