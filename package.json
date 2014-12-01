@@ -1,6 +1,6 @@
 {
   "name": "listhub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ListHub feed download and managment lib",
   "keywords": [
     "ListHub"
@@ -35,5 +35,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "_id": "listhub@1.0.0"
+  "_id": "listhub@1.0.1"
 }
