@@ -10,9 +10,9 @@ Via [npm][]:
 
 # Changelog
 
-## v1.0.0
+## v1.0.1
 
-- Added report creation support
+- Minor bugfixes
 
 [older change log](./CHANGELOG.md)
 

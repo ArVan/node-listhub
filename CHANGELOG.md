@@ -1,3 +1,7 @@
+## v1.0.1
+
+- Minor bugfixes
+
 ## v1.0.0
 
 - Added report creation support
