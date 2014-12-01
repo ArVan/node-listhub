@@ -59,16 +59,16 @@ The constructor takes 1 argument (options). It is an object with some configurat
 The possible contents of the object are:
 
 ```
-channelId <string>        Your ListHub channel
-username <string>         The username for your ListHub account
-password <string>         The password for your ListHub account
-filename <string>         An optional filename to apply to saved files. If not provided, the channelId will be used
-runAt <string|array>      An array containing cron-formatted strings to use for running cron jobs.
-setCron <boolean>         A boolean indicating if the constructor should set up cron jobs to get ListHub files
-runCronAtOnce <boolean>   Indicates if the feed should be downloaded also immediately after setup
-onCronComplete <function> Function to run at cron job completion
-tmpDirectory <string>     Path to temp directory where feed files will be kept
-reportFilePath <string>   Path to reports file to save for ListHub. If not specified will be equal to '{tmpDirectory}/{channelId}/report.xml'
+channelId <string>            Your ListHub channel
+username <string>             The username for your ListHub account
+password <string>             The password for your ListHub account
+filename <string>             An optional filename to apply to saved files. If not provided, the channelId will be used
+runAt <string|array>          An array containing cron-formatted strings to use for running cron jobs.
+setCron <boolean>             A boolean indicating if the constructor should set up cron jobs to get ListHub files
+runCronAtOnce <boolean>       Indicates if the feed should be downloaded also immediately after setup
+onCronComplete <function>     Function to run at cron job completion
+tmpDirectory <string>         Path to temp directory where feed files will be kept
+reportFile <string | boolean> Path to reports file to save for ListHub. If not specified will be equal to '{tmpDirectory}/{channelId}/report.xml'
 ```
 
 If no `runAt` is provided, the module will download and store the feed file every day at `00:00:00`.
